@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border-style: none;
+}
+
+body {
+    background-color: #3B3C45;
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+header > h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+
+nav > a {
+    color: rgba(128, 128, 128, 0.89);
+    font-family: sans-serif;
+}
+
+main {
+    height: 600px;
+    width: 600px;
+    margin: 60px 80px 40px 80px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+main > h1 {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+main > p {
+    font-family: sans-serif;
+    color: rgba(128, 128, 128, 0.74);
+    margin: 30px;
+    margin-left: 0px;
+    padding: 15px 0px;
+    
+}
+
+.botao1 {
+    width: 150px;
+    height: 60px;
+    background-color: rgba(0, 119, 255, 0.705);
+    font-family: sans-serif;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.26);
+    margin-right: 20px;
+}
+
+.botao2 {
+    width: 150px;
+    height: 60px;
+    background-color: rgba(104, 103, 103, 0.705);
+    font-family: sans-serif;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.26);
+}
+
+.botao3 {
+    width: 70px;
+    height: 40px;
+    background-color: rgba(0, 119, 255, 0.705);
+    font-family: sans-serif;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.26);
+}
