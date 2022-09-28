@@ -8,87 +8,104 @@
 }
 
 body {
-    background-color: #3B3C45;
-    font-size: 100%;
+    background-image: url('imagem de fundo-edt.png');
 }
 
 .cabecalho {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 30px;
 }
 
-header > h1 {
+.cabecalho-paragrafo {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace ,sans-serif;
 }
 
-header > nav {
+.cabecalho-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 15px;
-
+    gap: 40px;
+    align-items: center;
 }
 
-nav > a {
-    color: rgba(128, 128, 128, 0.89);
+.cabecalho-menu-link {
     font-family: sans-serif;
+    color: #9B9D9F;
+    font-size: 14px;
 }
 
-main {
-    height: 600px;
-    width: 600px;
-    margin: 60px 80px 40px 80px;
-    padding: 30px;
+.cabecalho-menu-link-especial {
+    font-family: sans-serif;
+    color: yellow;
+    font-size: 14px;
+}
+
+.cabecalho-menu-botao {
+    width: 80px;
+    height: 40px;
+    background-color: #3793FF;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.conteudo {
     display: flex;
     flex-direction: column;
+    gap: 40px;
+    padding: 60px;
 }
 
-main > h1 {
+.conteudo1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 450px;
+}
+
+.conteudo1-paragrafo {
+    font-family: sans-serif;
+    font-size: 56px;
     color: white;
-    font-size: 50px;
-    font-family: sans-serif;
 }
 
-main > p {
+.conteudo1-frase {
+    width: 370px;
     font-family: sans-serif;
-    color: rgba(128, 128, 128, 0.74);
-    margin: 30px;
-    margin-left: 0px;
-    padding: 15px 0px;
-    
+    color: #9B9D9F;
+    font-size: 16px;
+    text-align: justify;
 }
 
-.botao1 {
-    width: 150px;
+.conteudo-secundario-botao1 {
+    width: 210px;
     height: 60px;
-    background-color: rgba(0, 119, 255, 0.705);
-    font-family: sans-serif;
+    background-color: #3793FF;
     color: white;
+    font-family: sans-serif;
+    font-weight: 500;
     border-radius: 10px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.26);
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
-.botao2 {
-    width: 150px;
+.conteudo-secundario-botao2 {
+    width: 180px;
     height: 60px;
-    background-color: rgba(104, 103, 103, 0.705);
-    font-family: sans-serif;
+    background-color: #3D3F49;
     color: white;
+    font-family: sans-serif;
+    font-weight: 500;
     border-radius: 10px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.26);
 }
 
-.botao3 {
-    width: 70px;
-    height: 40px;
-    background-color: rgba(0, 119, 255, 0.705);
-    font-family: sans-serif;
+footer {
+    display: block;
     color: white;
-    border-radius: 10px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.26);
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;    
 }
