@@ -43,6 +43,10 @@ body {
     font-size: 14px;
 }
 
+.cabecalho-menu-link-especial::before {
+    content: '\1F451\00A0';
+}
+
 .cabecalho-menu-botao {
     width: 80px;
     height: 40px;
@@ -56,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 60px;
+    padding: 80px 60px 60px 120px;
 }
 
 .conteudo1 {
